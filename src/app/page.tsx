@@ -99,7 +99,7 @@ export default function Home() {
               pageNumber={limit / 10}
               isNext={limit > allCars.length}
               setLimit={setLimit}
-            ></ShowMore>
+            />
           </section>
         ) : (
           <div className="home__error-container">
